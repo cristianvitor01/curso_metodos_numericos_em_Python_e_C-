@@ -12,10 +12,10 @@
 import math
 
 def f(x):
-    return(8.0-4.5*(x- math.sin(x)))
+    return (0.25 * x ** 4 + 2.1 * x ** 3 - 7.3 * x ** 2 + 3.04)
 
-l = 1e-4
-e = 1e-4
+l = 1e-5
+e = 1e-5
 Ni = 10000
 
 a = float(input("Entre com o valor de 'a' do intervalo [a,b]: "))

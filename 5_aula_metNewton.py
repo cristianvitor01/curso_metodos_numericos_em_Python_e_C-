@@ -11,7 +11,7 @@
 import math
 
 def f(x):
-    return(8.0 - 4.5*(x-math.sin(x)))
+    return (0.25 * x ** 4 + 2.1 * x ** 3 - 7.3 * x ** 2 + 3.04)
 def df(x):
     h = 0.0001
     return((f(x + h) - f(x))/h)

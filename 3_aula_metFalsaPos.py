@@ -11,7 +11,7 @@
 import math
 
 def f(x):
-    return( 2.0*math.sin(2.0*x) - x**3 + 3.0)
+    return (0.25 * x ** 4 + 2.1 * x ** 3 - 7.3 * x ** 2 + 3.04)
 
 l = 0.000001
 tol = 0.000001
